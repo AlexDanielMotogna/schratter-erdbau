@@ -31,7 +31,7 @@ export default function Home() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/images/Schratter-images/WhatsApp-Image-2025-12-23-at-08.42.29-1536x864.jpeg')",
+            backgroundImage: "url('/images/Schratter-images/hero-baustelle.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

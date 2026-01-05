@@ -61,10 +61,10 @@ const config: Config = {
         "96": "96px",
       },
       borderRadius: {
-        button: "12px",
-        card: "16px",
-        image: "16px",
-        input: "12px",
+        button: "4px",
+        card: "4px",
+        image: "4px",
+        input: "4px",
       },
       boxShadow: {
         card: "0 10px 30px rgba(16, 24, 40, 0.08)",

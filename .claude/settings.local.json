@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm install:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(taskkill:*)",
+      "Bash(git push:*)",
+      "Bash(ren:*)",
+      "Bash(node scripts/optimize-images.mjs:*)"
+    ]
+  }
+}

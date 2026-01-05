@@ -20,7 +20,7 @@ export const services: Service[] = [
       "Materiallieferung",
       "Termingerechte Zustellung",
     ],
-    image: "/images/Schratter-images/IMG-20240117-WA0009.jpg",
+    image: "/images/Schratter-images/kipper-transport.jpg",
   },
   {
     id: "tieflader-transporte",
@@ -32,7 +32,7 @@ export const services: Service[] = [
       "3-Achs Rampenwagen",
       "Überbreite möglich",
     ],
-    image: "/images/Schratter-images/IMG-20240117-WA0001-768x672.jpg",
+    image: "/images/Schratter-images/tieflader-transport.jpg",
   },
   {
     id: "kranarbeiten",
@@ -44,7 +44,7 @@ export const services: Service[] = [
       "Versetzarbeiten",
       "Montagearbeiten",
     ],
-    image: "/images/Schratter-images/WhatsApp-Bild-2024-01-17-um-09.04.32_a0cb4574.jpg",
+    image: "/images/Schratter-images/kran-arbeiten.jpg",
   },
   {
     id: "baggerarbeiten",
@@ -56,7 +56,7 @@ export const services: Service[] = [
       "Mobilbagger bis 8,5to",
       "Kettenbagger bis 23to",
     ],
-    image: "/images/Schratter-images/IMG-20240117-WA0018.jpg",
+    image: "/images/Schratter-images/bagger-arbeit.jpg",
   },
   {
     id: "kelleraushub",
@@ -68,7 +68,7 @@ export const services: Service[] = [
       "Materialabtransport",
       "Verfüllung",
     ],
-    image: "/images/Schratter-images/IMG-20240117-WA0019.jpg",
+    image: "/images/Schratter-images/kelleraushub-projekt.jpg",
   },
   {
     id: "aussenanlagen",
@@ -80,7 +80,7 @@ export const services: Service[] = [
       "Pflastervorarbeiten",
       "Entwässerung",
     ],
-    image: "/images/Schratter-images/WhatsApp-Bild-2025-05-20-um-13.04.34_b319a7c3-768x1024.jpg",
+    image: "/images/Schratter-images/aussenanlagen-gestaltung.jpg",
   },
   {
     id: "schotter-humus",
@@ -92,6 +92,6 @@ export const services: Service[] = [
       "Humus",
       "Lieferung frei Baustelle",
     ],
-    image: "/images/Schratter-images/1.1-1024x729.jpg",
+    image: "/images/Schratter-images/schotter-lieferung.jpg",
   },
 ];

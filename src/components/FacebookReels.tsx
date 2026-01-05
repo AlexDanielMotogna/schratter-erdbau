@@ -47,7 +47,7 @@ export default function FacebookReels() {
             href={reel.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 w-[240px] h-[400px] rounded-xl overflow-hidden flex items-center justify-center hover:scale-105 transition-transform duration-300 bg-black"
+            className="flex-shrink-0 w-[240px] h-[400px] rounded overflow-hidden flex items-center justify-center hover:scale-105 transition-transform duration-300 bg-black"
           >
             <iframe
               src={`https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(reel.url)}&show_text=false&width=240`}

@@ -33,10 +33,10 @@
   --shadow-card-hover: 0 18px 40px rgba(16, 24, 40, 0.12);
 
   /* Border radius */
-  --radius-button: 12px;
-  --radius-card: 16px;
-  --radius-image: 16px;
-  --radius-input: 12px;
+  --radius-button: 4px;
+  --radius-card: 4px;
+  --radius-image: 4px;
+  --radius-input: 4px;
 }
 
 /* Base styles */

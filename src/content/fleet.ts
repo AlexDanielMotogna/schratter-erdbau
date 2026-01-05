@@ -39,7 +39,7 @@ export const fleetItems: FleetItem[] = [
     capacity: "14to Nutzlast",
     features: ["Maschinentransport", "Schwertransport"],
     category: "lkw",
-    image: "/images/Schratter-images/IMG-20240117-WA0001-768x672.jpg",
+    image: "/images/Schratter-images/tieflader-transport.jpg",
   },
   {
     id: "kipper-kran-1",
@@ -47,7 +47,7 @@ export const fleetItems: FleetItem[] = [
     capacity: "18to Nutzlast",
     features: ["Ladekran", "Versetzarbeiten", "Materiallieferung"],
     category: "lkw",
-    image: "/images/Schratter-images/WhatsApp-Bild-2024-01-17-um-09.04.32_a0cb4574.jpg",
+    image: "/images/Schratter-images/kran-arbeiten.jpg",
   },
   {
     id: "kipper-kran-2",
@@ -55,7 +55,7 @@ export const fleetItems: FleetItem[] = [
     capacity: "16to Nutzlast",
     features: ["Schüttguttransport", "Baustellen-Logistik"],
     category: "lkw",
-    image: "/images/Schratter-images/IMG-20240117-WA0004-768x576.jpg",
+    image: "/images/Schratter-images/mobilbagger-einsatz.jpg",
   },
   {
     id: "kipper-4achs-1",
