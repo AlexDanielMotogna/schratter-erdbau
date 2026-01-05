@@ -23,7 +23,7 @@ const milestones = [
   {
     year: "2010",
     title: "Neue Generation",
-    description: "Petra Schratter-Zerner und Manfred Zerner übernehmen die Geschäftsführung und führen das Familienunternehmen in die nächste Generation.",
+    description: "Petra Zerner und Manfred Zerner übernehmen die Geschäftsführung und führen das Familienunternehmen in die nächste Generation.",
   },
   {
     year: "Heute",
@@ -173,7 +173,7 @@ export default function UeberUnsPage() {
       <Section>
         <SectionHeader
           title="Geschäftsführung"
-          subtitle="Petra Schratter-Zerner und Manfred Zerner führen das Unternehmen seit 2010."
+          subtitle="Petra Zerner und Manfred Zerner führen das Unternehmen seit 2010."
         />
         <div className="max-w-2xl">
           <div className="bg-bg-soft rounded-card p-8">

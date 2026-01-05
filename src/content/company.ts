@@ -5,7 +5,7 @@ export const company = {
   founders: "Hugo und Brigitte Schratter",
   currentManagement: {
     since: 2010,
-    names: "Petra Schratter-Zerner und Manfred Zerner",
+    names: "Petra Zerner und Manfred Zerner",
   },
   address: {
     street: "Pötschenweg 1",
@@ -59,6 +59,6 @@ export const trustBadges = [
 ];
 
 export const aboutText = {
-  short: "Schratter Erdbau GmbH blickt auf eine über 40-jährige Erfolgsgeschichte im Bereich Erdbau und Transportdienstleistungen zurück. Gegründet 1983 von Hugo und Brigitte Schratter, wird das Familienunternehmen seit 2010 von Petra Schratter-Zerner und Manfred Zerner in zweiter Generation geführt.",
+  short: "Schratter Erdbau GmbH blickt auf eine über 40-jährige Erfolgsgeschichte im Bereich Erdbau und Transportdienstleistungen zurück. Gegründet 1983 von Hugo und Brigitte Schratter, wird das Familienunternehmen seit 2010 von Petra Zerner und Manfred Zerner in zweiter Generation geführt.",
   values: "Durch jahrzehntelange Erfahrung, moderne Technik und ein eingespieltes Team steht die Schratter Erdbau GmbH für Zuverlässigkeit, Präzision und Handschlagqualität – Werte, auf die Kunden seit 1983 vertrauen.",
 };
