@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import Section from "@/components/Section";
-import ContactForm from "@/components/ContactForm";
 import { company } from "@/content/company";
 
 export const metadata: Metadata = {
@@ -114,10 +113,6 @@ export default function KontaktPage() {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <div>
-            <ContactForm />
-          </div>
         </div>
       </Section>
     </>
