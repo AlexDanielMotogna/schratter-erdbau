@@ -139,9 +139,14 @@ export default function Footer() {
             <p className="text-small text-footer-text">
               © Schratter Erdbau GmbH {currentYear}
             </p>
-            <p className="text-small text-footer-text">
-              Ihr Partner am Bau
-            </p>
+            <a
+              href="https://motogna.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-small text-footer-text hover:text-brand transition-colors"
+            >
+              Website by MOTOGNA Tech Studio
+            </a>
           </div>
         </div>
       </div>
