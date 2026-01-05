@@ -182,7 +182,7 @@ export default function Home() {
         </div>
       </Section>
 
-      {/* Facebook Reels Section */}
+{/* Facebook Reels Section - temporarily disabled
       <Section>
         <SectionHeader
           title="Videos & Reels"
@@ -200,6 +200,7 @@ export default function Home() {
           </Button>
         </div>
       </Section>
+      */}
 
       {/* CTA Band */}
       <section className="bg-bg py-16 lg:py-20">
