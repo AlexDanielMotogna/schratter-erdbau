@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { CheckCircle, Calendar, Users, Award, Truck } from "lucide-react";
 import Section, { SectionHeader } from "@/components/Section";
 import { company, aboutText } from "@/content/company";
@@ -127,11 +128,14 @@ export default function UeberUnsPage() {
             ))}
           </div>
           <div>
-            {/* Placeholder for company/team image */}
-            <div className="aspect-[4/3] bg-bg-soft rounded-card overflow-hidden mb-6">
-              <div className="w-full h-full flex items-center justify-center">
-                <span className="text-muted">Bild der Familie/Firma</span>
-              </div>
+            <div className="aspect-[4/3] bg-bg-soft rounded-card overflow-hidden mb-6 relative">
+              <Image
+                src="/images/Schratter-images/Family.jpg"
+                alt="Familie Schratter Erdbau"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
             <div className="bg-bg-soft rounded-card p-6">
               <p className="text-body text-text italic">
