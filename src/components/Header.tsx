@@ -34,8 +34,8 @@ export default function Header() {
                 className="w-10 h-10 lg:w-11 lg:h-11"
                 priority
               />
-              <div className="ml-2 hidden sm:block">
-                <span className="font-heading font-bold text-lg text-text">SCHRATTER</span>
+              <div className="ml-2">
+                <span className="font-heading font-bold text-base sm:text-lg text-text">SCHRATTER</span>
                 <span className="block text-micro text-muted -mt-1">ERDBAU GmbH</span>
               </div>
             </div>
