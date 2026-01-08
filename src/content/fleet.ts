@@ -71,6 +71,27 @@ export const fleetItems: FleetItem[] = [
     category: "lkw",
     image: "/images/Schratter-images/Klein Transporte bis 2,8to.jpeg",
   },
+  {
+    id: "lkw-1",
+    name: "Kipper mit Kran",
+    features: ["Ladekran", "Maschinentransport"],
+    category: "lkw",
+    image: "/images/Schratter-images/Lkw1.jpeg",
+  },
+  {
+    id: "lkw-2",
+    name: "Kipper mit Kran",
+    features: ["Ladekran", "Wintereinsatz"],
+    category: "lkw",
+    image: "/images/Schratter-images/Lkw2.jpeg",
+  },
+  {
+    id: "lkw-3",
+    name: "Tieflader",
+    features: ["Maschinentransport", "Schwertransport"],
+    category: "lkw",
+    image: "/images/Schratter-images/Lkw3.jpeg",
+  },
 
   // Bagger
   {
@@ -96,6 +117,13 @@ export const fleetItems: FleetItem[] = [
     features: ["Straßentauglich", "Flexibel"],
     category: "bagger",
     image: "/images/Schratter-images/8,5to Radbagger.jpeg",
+  },
+  {
+    id: "radbagger-2",
+    name: "Radbagger",
+    features: ["Straßentauglich", "Flexibel"],
+    category: "bagger",
+    image: "/images/Schratter-images/RadBagger.jpeg",
   },
   {
     id: "kettenbagger",
