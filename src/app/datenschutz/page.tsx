@@ -97,7 +97,7 @@ export default function DatenschutzPage() {
               <p className="mb-4">
                 Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
                 mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie
-                in ein Kontaktformular eingeben. Andere Daten werden automatisch
+                uns per E-Mail oder Telefon mitteilen. Andere Daten werden automatisch
                 oder nach Ihrer Einwilligung beim Besuch der Website durch
                 unsere IT-Systeme erfasst. Das sind vor allem technische Daten
                 (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des
@@ -140,39 +140,10 @@ export default function DatenschutzPage() {
               </p>
             </div>
 
-            {/* Contact Form */}
-            <div>
-              <h2 className="font-heading text-h3 text-text mb-4">
-                5. Kontaktformular
-              </h2>
-              <p className="mb-4">
-                Wenn Sie uns per Kontaktformular Anfragen zukommen lassen,
-                werden Ihre Angaben aus dem Anfrageformular inklusive der von
-                Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der
-                Anfrage und für den Fall von Anschlussfragen bei uns
-                gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung
-                weiter.
-              </p>
-              <p className="mb-4">
-                Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6
-                Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines
-                Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
-                Maßnahmen erforderlich ist.
-              </p>
-              <p className="mb-4">
-                Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben
-                bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung
-                zur Speicherung widerrufen oder der Zweck für die
-                Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung
-                Ihrer Anfrage). Zwingende gesetzliche Bestimmungen –
-                insbesondere Aufbewahrungsfristen – bleiben unberührt.
-              </p>
-            </div>
-
             {/* Storage Duration */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                6. Wie lange speichern wir Ihre Daten?
+                5. Wie lange speichern wir Ihre Daten?
               </h2>
               <p className="mb-4">
                 Sofern innerhalb dieser Datenschutzerklärung keine speziellere
@@ -188,7 +159,7 @@ export default function DatenschutzPage() {
             {/* Rights */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                7. Ihre Rechte
+                6. Ihre Rechte
               </h2>
               <p className="mb-4">Sie haben das Recht:</p>
               <ul className="list-disc list-inside mb-4 space-y-2">
@@ -214,7 +185,7 @@ export default function DatenschutzPage() {
             {/* Cookies */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                8. Cookies
+                7. Cookies
               </h2>
               <p className="mb-4">
                 Unsere Website verwendet keine Cookies zu Tracking- oder
@@ -226,7 +197,7 @@ export default function DatenschutzPage() {
             {/* Analytics */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                9. Analyse-Tools
+                8. Analyse-Tools
               </h2>
               <p className="mb-4">
                 Auf dieser Website werden derzeit keine Analyse-Tools oder
@@ -237,7 +208,7 @@ export default function DatenschutzPage() {
             {/* Social Media */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                10. Social Media
+                9. Social Media
               </h2>
               <p className="mb-4">
                 Auf unserer Website sind Links zu unseren Social-Media-Profilen
@@ -250,7 +221,7 @@ export default function DatenschutzPage() {
             {/* Changes */}
             <div>
               <h2 className="font-heading text-h3 text-text mb-4">
-                11. Änderungen dieser Datenschutzerklärung
+                10. Änderungen dieser Datenschutzerklärung
               </h2>
               <p className="mb-4">
                 Wir behalten uns vor, diese Datenschutzerklärung anzupassen,
