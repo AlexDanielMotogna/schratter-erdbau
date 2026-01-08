@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
-import { Truck, ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import Section, { SectionHeader } from "@/components/Section";
-import Card, { CardHeader } from "@/components/Card";
 import Button from "@/components/Button";
+import FleetCard from "@/components/FleetCard";
 import { fleetItems, fleetCategories } from "@/content/fleet";
 import { company } from "@/content/company";
 
@@ -75,36 +74,7 @@ export default function FuhrparkPage() {
             />
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {categoryItems.map((item) => (
-                <Card key={item.id}>
-                  <div className="h-40 bg-bg-soft rounded-image mb-4 overflow-hidden relative">
-                    {item.image ? (
-                      <Image
-                        src={item.image}
-                        alt={item.name}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center">
-                        <Truck className="w-12 h-12 text-muted" />
-                      </div>
-                    )}
-                  </div>
-                  <CardHeader>{item.name}</CardHeader>
-                  {item.capacity && (
-                    <p className="text-brand font-semibold text-body mt-1">
-                      {item.capacity}
-                    </p>
-                  )}
-                  <ul className="mt-3 space-y-1">
-                    {item.features.map((feature, index) => (
-                      <li key={index} className="text-small text-muted">
-                        • {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </Card>
+                <FleetCard key={item.id} item={item} />
               ))}
             </div>
           </Section>
